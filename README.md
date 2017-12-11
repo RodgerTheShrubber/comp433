@@ -1,9 +1,9 @@
 # comp433
 Final project for comp 433. The project deals with displaying data regarding the [UNC Edible Campus](http://ediblecampus.web.unc.edu/) gardens. It will display the locations of each edible campus garden on a google map. The users can click on the map markers to get a description of the edible garden. Users can also use the QR scanner to get information about the gardens by scanning a QR code on the edible campus garden.
 ## Requirements
-- [Node] (https://nodejs.org/en/)
-- [Expo App] (https://expo.io/) on your mobile device
-
+- [Node](https://nodejs.org/en/)
+- [Expo App](https://expo.io/) on your mobile device
+- [Website](http://www.qr-code-generator.com/) for creating QR codes. Note: Code data must be of type text and be a string that is a number 0-9
 ## Setup
 - Install node.
 - Install expo app on your iPhone or android device.

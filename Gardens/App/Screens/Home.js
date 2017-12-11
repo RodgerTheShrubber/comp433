@@ -29,20 +29,6 @@ export default class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      origin: '',
-      destination: '',
-    }
-  }
-
-  onAutocompletePress(value, details, isOrigin) {
-    if(isOrigin) {
-      this.setState({
-        origin: details.geometry.location
-      })
-    } else {
-      this.setState({
-        destination: details.geometry.location
-      })
     }
   }
 
